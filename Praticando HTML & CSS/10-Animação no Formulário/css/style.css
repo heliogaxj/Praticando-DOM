@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+.container{
+    width: 50%;
+    height: 45%;
+    padding: 5%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 12%;
+    background-image: linear-gradient( to right, #6d0307, #7B0307, #8C030A, #9A040C, #a8050aec);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h1{
+    width: 100%;
+    font-size: 3vw;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.row{
+    width: 60%;
+    height: .2vh;
+    margin: 0 auto;
+    background-image: linear-gradient( to right, #6d0307, #7B0307, #8C030A, #9A040C, #a8050aec);
+    margin-bottom: 3%;
+}
+
+p{
+    font-size: 1.2vw;
+    color: #fff;
+    font-weight: 100;
+}
+
+form{
+    margin: auto;
+    padding: 5vw;
+    background-color: rgba(31, 31, 32, 0.495);
+    box-shadow: 0px 0px 14px 10px rgba(245, 1, 1, 0.13);
+}
+
+.name, .email{
+    
+}
+
+#name, #email{
+    width: 100%;
+    height: 3vh;
+    background-color: rgba(37, 37, 37, 0.473);
+    border: none;
+    color: white;
+}
+
+
+
+#name{
+    margin-bottom: 2vh;
+}
+
+label{
+    width: 30vw;
+    height: 3.4vh;
+    position: absolute;
+    z-index: 1;
+    padding-left: .5vw;
+    color: rgba(255, 0, 0, 0.267);
+    border: 1px solid #fff;
+    cursor: text;
+}
+
+#label-1 input {
+    padding-top: -1em;
+}
+
+input{
+    width: 100%;
+    height: 3.5vh;
+}
+
+#btn{
+    width: 8vw;
+    background-image: linear-gradient( to right, #6d0307, #7B0307, #8C030A, #9A040C, #A8050A);
+    border: none;
+    margin-top: 2vh;
+    box-shadow: 0px 0px 14px 3px rgba(245, 1, 1, 0.13);
+    border-radius: 20px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background: black;
+    color: #6d0307;
+}

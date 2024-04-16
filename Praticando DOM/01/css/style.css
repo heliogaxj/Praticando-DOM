@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: orbitron;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: #f1f1f1;
+}
+
+.container h1{
+    color: #175cff;
+}
+
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+}
+
+.time{
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #172953;
+}
+
+.separator{
+    padding: 0 10px;
+    color: #525763;
+}
+
+#milliseconds{
+    font-size: 30px;
+    color: #525763;
+}
+
+.buttons{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#startBtn{
+    background-color: #175cff;
+    color: #fff;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden #pauseBtn{
+    background-color: rgba(105, 101, 101, 0.774);
+    color: #fff;
+    margin-right: .2rem;
+}
+
+.hidden #resetBtn{
+    background-color: rgba(226, 11, 11, 0.863);
+    color: #fff;
+}

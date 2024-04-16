@@ -1,0 +1,17 @@
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .verde{
+        width: 45vh;
+        height: 30vh;
+        background-color: green;
+    }
+
+    .amarelo{
+        width: 50vh;
+        background-color: yellow;
+    }

@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    min-width: 720px;
+}
+
+
+.container{
+    width: 100%;
+    height: 98vh;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    font-weight: 500;
+}
+
+nav img{
+    width: 50px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+nav ul{
+    float: right;
+    padding-top: 25px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+nav a{
+    margin: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #ccc;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+nav .default-btn:hover{
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+/* main banner */
+
+.main-banner{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url(../img/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.header-banner{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-banner h1, .main-banner p{
+    text-shadow: #000 3px 2px 3px;
+    color: #fff;
+}
+
+.main-banner h1{
+    font-size: 50px;
+}
+
+.main-banner p{
+    font-size: 30px;
+}
+
+/* Conteudo Section */
+
+.services-container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.services-container ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.services-container li p{
+    flex: 1 1 200px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+i{
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+.services-container h3{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.services-container p{
+    line-height: 24px;
+}
+
+#shield{
+    color: #2cc76a;
+}
+
+#rocket{
+    color: #ef3f29;
+}
+
+#chat{
+    color: #ef8f29;
+}
+
+/* planos */
+
+
+.pricing-container{
+    width: 100%;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+    padding-bottom: 2rem;
+}
+
+.pricing-container p{
+    font-size: 20px;
+    margin-bottom: 5rem;
+}
+
+.plans-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.plans-container .plan{
+    min-width: 220px;
+    margin: 15px 5px;
+}
+
+.plan ul{
+    width: 100%;
+}
+
+.plan li{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    line-height: 70px;
+    padding: 1rem;
+    list-style: none;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.plan .price{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto -50px;
+    line-height: 120px;
+    font-size: 18px;
+    background-color: #2cc762;
+    color: #fff;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #202b34;
+    padding: 50px 0;
+    
+}
+
+.plan .plan-btn{
+    height: 75px;
+    line-height: 75px;
+    font-size: 24px;
+    padding: 0;
+    background-color: #2cc762;
+    color: #fff;
+    cursor: pointer;
+}
+
+.plan .recommended{
+    background-color: #ef3f29;
+}
+
+/* Procurar domínio */
+.searchdomain-container{
+    text-align: center;
+    padding: 5rem 0;
+    background-color: #34454e;
+}
+
+.searchdomain-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p{
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input[type="submit"]{
+    padding: 15px 30px;
+    font-size: 24px;
+    opacity: .8;
+    background-color: #2dc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.searchdomain-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
+/* Area de Contato */
+
+.contact-container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    width: 470px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Rodapé */
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 100px 0;
+}
+
+/* Responsividade */
+
+/* Laptops pequenos, a partir de 1100px */
+
+@media (max-width: 1100px) {
+    .plans-container{
+        width: 95%;
+    }
+
+    .plans-container .plan{
+        margin: 0 5px;
+    }
+}
+
+@media (max-width:"900px"){
+    .main-banner p{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width: 576px){
+
+
+    .container{
+        width: 100%;
+    }
+
+    .pricing-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        
+    }
+}

@@ -1,0 +1,35 @@
+    * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    }
+
+body{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+picture{
+    border: 2px solid yellow;
+}
+
+#img-1{
+    border: 2px solid red;
+    height: 180px;
+    width: 250px;
+}
+
+#img-2{
+    border: 2px solid blue;
+    height: 180px;
+    width: 250px;
+}
+
+#img-3{
+    border: 2px solid green;
+    height: 180px;
+    width: 250px;
+}

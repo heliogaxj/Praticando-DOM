@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Cronômetro</h1>
+        <div class="timer">
+            <div class="time" id="minutes">00</div>
+            <div class="separator">:</div>
+            <div class="time" id="seconds">00</div>
+            <div class="separator">:</div>
+            <div class="time" id="milliseconds">000</div>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="startBtn" onclick="start()">Iniciar</button>
+            <div class="hidden">
+                <button class="btn" id="pauseBtn" onclick="pauseBtn()">Pausar</button>
+                <button class="btn" id="resetBtn" onclick="resetBtn()">Resetar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

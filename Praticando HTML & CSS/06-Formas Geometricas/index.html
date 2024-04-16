@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.row{
+    margin: auto;
+}
+
+.triangulo-1 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid yellow;
+}
+
+.triangulo-2 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 50px solid yellow;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    left: 41.5%;
+    bottom: 5.4em;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="quadrado">
+            <div class="row">
+                <div class="triangulo-1"></div>
+                <div class="triangulo-2"></div>
+            </div>
+        <div class="circulo"></div>
+        </div>
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
