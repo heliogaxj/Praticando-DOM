@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <form>
+            <input type="text" placeholder="Nome" id="nome">
+            <input type="text" placeholder="Altura em (cm)" id="altura" class="inputFilter">
+            <input type="text" placeholder="Informe seu peso" id="peso" class="inputFilter">
+        </form>
+        <button id="btn">Calcular</button>
+        <div id="hidden">
+            <p><span id="paciente"></span> possui índice de massa corporal igual a: <span id="resultado"></span><br><span id="faixa"></span></p>
+        </div>
+    </div>
+    
+
+    <script src="JS/CalcScript.js"></script>
+</body>
+</html>
